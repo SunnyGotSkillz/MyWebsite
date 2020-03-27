@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.headerLinks {
+    display:inline;
+    padding: 100px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+} 
+.float {
+    float: left;
+    margin-right: 10px;
+}
+.clearleft {clear: left;}
+
+.projectCard {
+    box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
+    transition: 0.3s;
+    width: 500px;
+    height: 200px;
+}
+
+.container {
+    padding: 2px 16px;
+}
